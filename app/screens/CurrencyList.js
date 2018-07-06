@@ -13,8 +13,8 @@ class CurrencyList extends Component {
 
   render() {
     return (
-      <View style={{paddingTop: 20}}>
-        <StatusBar backgroundColor="black" translucent={false} barStyle="light-content" />
+      <View>
+        <StatusBar translucent={false} barStyle="light-content" />
         <FlatList
           data={currencies}
           renderItem={({ item }) => (

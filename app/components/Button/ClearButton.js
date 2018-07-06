@@ -19,4 +19,3 @@ ClearButton.propTypes = {
 };
 
 export default ClearButton
-
